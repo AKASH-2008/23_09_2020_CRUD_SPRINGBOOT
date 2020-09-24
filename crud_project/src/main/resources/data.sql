@@ -1,0 +1,3 @@
+INSERT INTO BUSINESS_MASTER(business_id,business_name,contact_no,pan,created_date,updated_date) VALUES (100,'FACT',1000000,96,'2020-09-23','2020-09-23');
+INSERT INTO BRANCH_MASTER(branch_id,business_id,branch_address,branch_contact,active_ind,created_date,updated_date,FK) VALUES (1,100,'NEW WORLD',9996966,'true','2020-09-23','2020-09-23',100);
+INSERT INTO BRANCH_MASTER(branch_id,business_id,branch_address,branch_contact,active_ind,created_date,updated_date,FK) VALUES (2,100,'OLD WORLD',9996555,'true','2020-09-23','2020-09-23',100);

@@ -10,9 +10,9 @@ import com.assingment.springrest.entity.Business;
 
 public interface BranchRepository extends JpaRepository<Branch, Integer>{
 
-	//@Query("SELECT bum from Business_Master bum where bum.pan=?1")
+	@Query(value="SELECT EXISTS(SELECT * FROM BRANCH_MASTER WHERE BRANCH_ID = ?1)", nativeQuery = true)
+	Boolean findByBranchIdExists(Integer branch_id);
 	
-	//@Query("SELECT brm from Branch_Master brm WHERE brm.branch_address=?1")
-	//List<Business> findByBranchAddress(String branch_address);
+	
 	
 }

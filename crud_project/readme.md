@@ -1,22 +1,22 @@
 {
     "business": {
-        "business_id": "100",
-        "business_name": "FACT",
-        "contact_no": "1000000",
-        "pan": "963369963",
+        "business_id": "10001",
+        "business_name": "BAJWA PIZZA",
+        "contact_no": "420",
+        "pan": "768",
         "branches": [
             {
-                "branch_id": "001",
-                "business_id": "100",
-                "branch_address": "NEW WORLD",
-                "branch_contact": "9633699631",
+                "branch_id": "105",
+                "business_id": "10001",
+                "branch_address": "AMERICA",
+                "branch_contact": "420420",
                 "active_ind": "true"
             },
             {
-                "branch_id": "002",
-                "business_id": "100",
-                "branch_address": "NEW WORLD DINO",
-                "branch_contact": "9633699632",
+                "branch_id": "106",
+                "business_id": "10001",
+                "branch_address": "UK",
+                "branch_contact": "768768",
                 "active_ind": "false"
             }
         ]
