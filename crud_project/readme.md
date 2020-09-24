@@ -1,24 +1,15 @@
-{
-    "business": {
-        "business_id": "10001",
-        "business_name": "BAJWA PIZZA",
-        "contact_no": "420",
-        "pan": "768",
-        "branches": [
-            {
-                "branch_id": "105",
-                "business_id": "10001",
-                "branch_address": "AMERICA",
-                "branch_contact": "420420",
-                "active_ind": "true"
-            },
-            {
-                "branch_id": "106",
-                "business_id": "10001",
-                "branch_address": "UK",
-                "branch_contact": "768768",
-                "active_ind": "false"
-            }
-        ]
-    }
-}
+Assingment
+
+CheckList(s)
+
+1. Use H2 in memory database for development - Check
+
+2. Define entity classes (do not use DDL auto create) - Check
+
+3. Write test cases to test your end points using Spring Boot test. Use JSON file for input data - Check
+
+4. Use Swagger for documentation -Check
+
+5. Handle exceptions properly - Check
+
+Comment - There could be some bugs especially in TestCases
