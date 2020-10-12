@@ -71,7 +71,30 @@ class SpringRestCRUDControllerTest {
 	@Test
 	void SaveBusinessTest() throws Exception{
 		
-		String json = "{\"business\":{\"business_id\":\"100\",\"business_name\":\"FACT\",\"contact_no\":\"1000000\",\"pan\":\"963369963\",\"branches\":[{\"branch_id\":\"001\",\"business_id\":\"100\",\"branch_address\":\"NEW WORLD\",\"branch_contact\":\"9633699631\",\"active_ind\":\"true\"},{\"branch_id\":\"002\",\"business_id\":\"100\",\"branch_address\":\"NEW WORLD DINO\",\"branch_contact\":\"9633699632\",\"active_ind\":\"false\"}]}}";
+		String json = "{\r\n"
+				+ "  \"business\": {\r\n"
+				+ "    \"business_id\": \"200\",\r\n"
+				+ "    \"business_name\": \"FACT1\",\r\n"
+				+ "    \"contact_no\": \"500000650\",\r\n"
+				+ "    \"pan\": \"963369\",\r\n"
+				+ "    \"branches\": [\r\n"
+				+ "      {\r\n"
+				+ "        \"branch_id\": \"100\",\r\n"
+				+ "        \"business_id\": \"200\",\r\n"
+				+ "        \"branch_address\": \"NEW WORLD\",\r\n"
+				+ "        \"branch_contact\": \"963369\",\r\n"
+				+ "        \"active_ind\": \"true\"\r\n"
+				+ "      },\r\n"
+				+ "      {\r\n"
+				+ "        \"branch_id\": \"200\",\r\n"
+				+ "        \"business_id\": \"200\",\r\n"
+				+ "        \"branch_address\": \"NEW WORLD DINO\",\r\n"
+				+ "        \"branch_contact\": \"963369\",\r\n"
+				+ "        \"active_ind\": \"false\"\r\n"
+				+ "      }\r\n"
+				+ "    ]\r\n"
+				+ "  }\r\n"
+				+ "}";
 			    
 		Gson gson = new Gson();
 			    
@@ -104,11 +127,11 @@ class SpringRestCRUDControllerTest {
 	@Test
 	void SearchByKeyTest() throws Exception {
 		
-		String business_name = "FACT";
-		Integer pan = 963369963;
-		String branch_address = "NEW WORLD";
-		Boolean active_ind = true;
-		LocalDate creation_date = LocalDate.of(2020, Month.SEPTEMBER, 23);
+		/*
+		 * String business_name = "FACT"; Integer pan = 963369963; String branch_address
+		 * = "NEW WORLD"; Boolean active_ind = true; LocalDate creation_date =
+		 * LocalDate.of(2020, Month.SEPTEMBER, 23);
+		 */
 		
 		this.mockMvc.perform(get("/springrest/search")
 				

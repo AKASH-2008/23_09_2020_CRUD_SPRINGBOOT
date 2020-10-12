@@ -64,6 +64,8 @@ public class SpringRestCRUDController {
 			 @RequestParam(value="created_date", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate created_date)
 			  {
 		
+		 //System.out.println(springCRUDService.search(business_name, pan, branch_address, active_ind, created_date));
+		 
 		 return ResponseEntity.ok().body(springCRUDService.search(business_name, pan, branch_address, active_ind, created_date));
 		 
 		 //System.out.println(">>> " + business_name+" >>>> "+ pan+" >>> "+ branch_address +" >>>> " + active_ind +" >>> "+created_date);

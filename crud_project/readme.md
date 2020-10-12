@@ -1,3 +1,21 @@
+v0.04
+
+Assingment
+
+CheckList(s)
+
+1. Integration Testing - Check
+
+2. Use of hamcrest - Check
+
+3. Loosely coupled JSON input, no hard coding of JSON data. - Check
+
+4. Modular Code - Check
+
+---------------------------------------------------------------------
+
+v0.03
+
 Assingment
 
 CheckList(s)

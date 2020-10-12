@@ -1,0 +1,24 @@
+{
+  "business": {
+    "business_id": "200",
+    "business_name": "FACT1",
+    "contact_no": "500000650",
+    "pan": "963369",
+    "branches": [
+      {
+        "branch_id": "100",
+        "business_id": "200",
+        "branch_address": "NEW WORLD",
+        "branch_contact": "963369",
+        "active_ind": "true"
+      },
+      {
+        "branch_id": "200",
+        "business_id": "200",
+        "branch_address": "NEW WORLD DINO",
+        "branch_contact": "963369",
+        "active_ind": "false"
+      }
+    ]
+  }
+}
